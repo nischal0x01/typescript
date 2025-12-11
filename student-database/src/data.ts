@@ -1,4 +1,4 @@
-let students = `[
+let students = [
     {
         "id": "34567",
         "dateAdmission": "2021-10-15T14:30:12.511Z",
@@ -124,7 +124,15 @@ let students = `[
         "lastName": "Takahashi",
         "birthYear": "2003",
         "focusArea": ["Aerospace Engineering"]
+    },
+    {
+        "id": "44138",
+        "dateAdmission": "2020-08-28T08:40:54.511Z",
+        "firstName": "Nischal",
+        "lastName": "Subedi",
+        "birthYear": "2005",
+        "focusArea": ["Economics"]
     }
-]`;
+];
 
 export default students;
